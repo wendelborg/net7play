@@ -15,4 +15,5 @@ COPY --from=build-env /App/out .
 
 # https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows#code-try-15
 ENV DOTNET_EnableDiagnostics=0
+ENV ASPNETCORE_URLS="http://+:8080"
 ENTRYPOINT ["dotnet", "Net7.dll"]

@@ -5,9 +5,9 @@ docker build -t net7container -f Dockerfile .
 
 docker scan net7container
 
-docker run -it -p 5202:80 --rm net7container
+docker run -it -p 5202:8080 --rm net7container
 
-docker run -it -p 5202:80 --entrypoint "bash" --rm net7container
+docker run -it -p 5202:8080 --entrypoint "bash" --rm net7container
 
 http://localhost:5202/WeatherForecast
 
