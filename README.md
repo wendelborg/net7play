@@ -18,10 +18,6 @@ https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=window
 
 https://joehonour.medium.com/a-guide-to-setting-up-a-net-core-project-using-docker-with-integrated-unit-and-component-tests-a326ca5a0284
 
-
-
-
-
 https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-environment-variables
 
-
+https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-7.0
